@@ -89,11 +89,13 @@ section.image > p {
 }
 
 div.box {
+    background-color: #00000063;
     min-width: 240px;
     height: 150px;
     line-height: 150px;
     border: solid 1px black;
     margin: 10px;
+    border-radius: 5px;
 }
 
 div.scroll {
@@ -123,8 +125,17 @@ div#s04 {
 
 div#sft01 {
     background-image: url(image/softwares/sft-01.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
+div#sft02 {
+    background-image: url(image/softwares/sft-02.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 p#citation {
     color: #ffffff;
