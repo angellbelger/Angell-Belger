@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #00ffffc9;
+    background-color: #8726a5;
     border-radius: 5px;
     transition: 0.4s;
 }
@@ -102,7 +102,7 @@ div.scroll {
     display: flex;
     background-position: center center;
     background-size: cover;
-    background-color: rgb(135, 38, 165);
+    background-color: #8726a5;
     max-height: 170px;
     overflow-x: auto;
 }
