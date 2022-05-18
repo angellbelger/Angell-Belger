@@ -30,7 +30,7 @@ header {
 
 h1#main {
     font-family: "olga", Arial, Helvetica, sans-serif;
-    font-size: 7vw;
+    font-size: 3.0em;
     padding: 35px;
 }
 
@@ -105,6 +105,7 @@ div.scroll {
     background-size: cover;
     background-color: #8726a5;
     max-height: 170px;
+    box-shadow: inset 1px 1px 7px #00000059;
     overflow-x: auto;
 }
 
