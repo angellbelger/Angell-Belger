@@ -16,15 +16,21 @@
 
 }
 
+:root {
+    --colour01: #ffffff;
+    --colour02: #000000;
+    --colour03: #8726a5;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: var(--colour01);
 }
 
 header {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: black;
+    background-color: var(--colour02);
 
 }
 
@@ -47,18 +53,18 @@ h2 {
 }
 
 nav {
-    background-color: #000000;
+    background-color: var(--colour02);
     padding: 10px;
 }
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--colour01);
     padding: 10px;
 }
 
 nav a:hover {
-    background-color: #8726a5;
+    background-color: var(--colour03);
     border-radius: 5px;
     transition: 0.4s;
 }
@@ -81,7 +87,7 @@ section.image {
 }
 
 section.image > p {
-    color: #ffffff;
+    color: var(--colour01);
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
     text-align: center;
     font-size: 3.0em;
@@ -103,7 +109,7 @@ div.scroll {
     display: flex;
     background-position: center center;
     background-size: cover;
-    background-color: #8726a5;
+    background-color: var(--colour03);
     max-height: 170px;
     box-shadow: inset 1px 1px 7px #00000059;
     overflow-x: auto;
