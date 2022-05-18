@@ -82,7 +82,8 @@ main img {
 
 
 section#angell {
-    background-color: var(--colour02);
+    min-height: 600px;
+    background-image: url(image/angell-wind7.png);
 }
 
 section.image {
