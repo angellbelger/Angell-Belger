@@ -82,7 +82,7 @@ main img {
 
 
 section#angell {
-    background-image: url(image/angell-wind7.png);
+    background-color: var(--colour02);
 }
 
 section.image {
