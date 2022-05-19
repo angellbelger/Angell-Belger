@@ -163,6 +163,10 @@ div#sft-03 {
     background-repeat: no-repeat;
 }
 
+div.lang {
+    background-image: linear-gradient(to right(#000000, transparent));
+}
+
 p#citation {
     color: #ffffff;
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
