@@ -198,15 +198,10 @@ p#citation {
     padding: 0px 20px;
 }
 
-p.sd {
-    display: none;
+div.sd {
     color: #ffffff;
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
 
-}
-
-p.sd:hover {
-    display: contents;
 }
 
 footer {
