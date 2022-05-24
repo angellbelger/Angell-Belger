@@ -122,6 +122,8 @@ div.scroll {
     overflow-x: auto;
 }
 
+/* Softwares */
+
 div#s01 {
     background-image: url(image/softwares/site-01.png);
 }
@@ -179,12 +181,32 @@ div#c {
     background-image: url(image/languages/l-c.png);
 }
 
+/* Science of Deduction */
+
+div#sd01 {
+    background-image: url(image/science-of-deduction/sd-01.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 p#citation {
     color: #ffffff;
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
     text-align: center;
     font-size: 1.0em;
     padding: 0px 20px;
+}
+
+p.sd {
+    display: none;
+    color: #ffffff;
+    text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
+
+}
+
+p.sd:hover {
+    display: contents;
 }
 
 footer {
