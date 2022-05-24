@@ -190,6 +190,11 @@ div#sd01 {
     background-repeat: no-repeat;
 }
 
+p {
+    font-size: 20px;
+    padding: 20px;
+}
+
 p#citation {
     color: #ffffff;
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
@@ -202,6 +207,11 @@ div.sd {
     color: #ffffff;
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
 
+}
+
+img#about {
+    width: 100%;
+    padding: -20px;
 }
 
 footer {
