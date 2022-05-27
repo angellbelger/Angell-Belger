@@ -92,13 +92,14 @@ section#angell {
 
 section#angell2 {
     background-image: url(image/angell-oxford.jpg);
+    background-position: center bottom;
 }
 
 section.image {
     min-height: 597px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center center;
 
 }
 
