@@ -90,11 +90,15 @@ section#angell {
     background-image: url(image/angell-wind10.jpg);
 }
 
+section#angell2 {
+    background-image: url(image/angell-oxford.jpg);
+}
+
 section.image {
     min-height: 597px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center bottom;
 
 }
 
