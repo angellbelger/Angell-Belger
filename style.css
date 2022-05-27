@@ -95,6 +95,12 @@ section#angell2 {
     background-position: center bottom;
 }
 
+section#game {
+    background-color: #000000;
+    color: white;
+    height: 600px;
+}
+
 section.image {
     min-height: 597px;
     background-size: cover;
@@ -203,6 +209,11 @@ div#sd01 {
 p {
     font-size: 20px;
     padding: 20px;
+}
+
+p#game {
+    text-align: center;
+    line-height: 600px;
 }
 
 p#citation {
