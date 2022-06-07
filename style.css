@@ -119,8 +119,11 @@ section.image > p {
 
 div.box {
     background-color: #00000063;
-    min-width: 240px;
-    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 320px;
+    height: 200px;
     line-height: 150px;
     border: solid 2px black;
     margin: 10px;
@@ -133,7 +136,7 @@ div.scroll {
     background-position: center center;
     background-size: cover;
     background-color: var(--colour03);
-    max-height: 170px;
+    max-height: 220px;
     box-shadow: inset 1px 1px 7px #00000059;
     overflow-x: auto;
 }
