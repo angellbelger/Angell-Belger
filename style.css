@@ -144,23 +144,23 @@ div.scroll {
 /* Softwares */
 
 div#s01 {
-    background-image: url(image/softwares/site-01.png);
+    background-image: url(image/softwares/site-01.jpg);
 }
 
 div#s02 {
-    background-image: url(image/softwares/site-02.png);
+    background-image: url(image/softwares/site-02.jpg);
 }
 
 div#s03 {
-    background-image: url(image/softwares/site-03.png);
+    background-image: url(image/softwares/site-03.jpg);
 }
 
 div#s04 {
-    background-image: url(image/softwares/site-04.png);
+    background-image: url(image/softwares/site-04.jpg);
 }
 
 div#s05 {
-    background-image: url(image/softwares/site-05.png);
+    background-image: url(image/softwares/site-05.jpg);
 }
 
 div#sft-01 {
@@ -187,8 +187,8 @@ div#sft-03 {
 div.lang {
     background-position: right bottom;
     background-repeat: no-repeat;
-    height: 150px;
-    width: 240px;
+    height: 200px;
+    width: 320px;
     margin: 0px;
 }
 
