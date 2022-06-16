@@ -50,10 +50,9 @@
 
             <div class="scroll">
                 <div class="box" id="sd01">
-                    <p class="citation" id="mind">...</p>
                 </div>
                 <div class="box" id="sd02">
-                    <p class="citation">Dark Day</p>
+                    <p class="citation" id="dark">Dark Day</p>
                 </div>
             </div>
 
@@ -62,6 +61,22 @@
     <footer>
         <p><strong>Made in Osternack by Angell Belger</strong></p>
     </footer>
-    <script src="../script.js"></script>
+    <script>
+        var msgMind = window.document.querySelector('p#mind')
+        var msgDark = window.document.querySelector('p#dark')
+
+        msg.addEventListener('mouseenter', showtxt)
+        msg.addEventListener('mouseout', hiddentxt)
+
+
+        function showtxt(){
+        msg.innerHTML = 'Mind Palace'
+        }
+
+        function hiddentxt(){
+        msg.innerHTML = '...'
+        }
+
+    </script>
 </body>
 </html>
