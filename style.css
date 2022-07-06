@@ -187,6 +187,9 @@ div#sft-03 {
 
 div#sft-04 {
     background-image: url(image/softwares/sft-04.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 div.lang {
