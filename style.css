@@ -243,6 +243,12 @@ p.citation {
     padding: 0px 20px;
 }
 
+p.content {
+    color: var(--colour02);
+    font-size: 20px;
+    text-indent: 20px;
+}
+
 div.sd {
     color: #ffffff;
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
