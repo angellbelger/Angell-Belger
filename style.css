@@ -246,7 +246,9 @@ p.citation {
 p.content {
     color: var(--colour02);
     font-size: 20px;
-    text-indent: 20px;
+    text-indent: 30px;
+    line-height: 40px;
+    text-align: justify;
 }
 
 div.sd {
