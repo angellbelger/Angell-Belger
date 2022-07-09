@@ -133,6 +133,11 @@ div.box {
     box-shadow: 5px 5px 7px #0000005b;
 }
 
+div.video {
+    background-color: var(--colour03);
+    text-align: center;
+}
+
 div.scroll {
     display: flex;
     background-position: center center;
