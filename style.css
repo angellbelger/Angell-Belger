@@ -63,17 +63,33 @@ nav {
     padding: 10px;
 }
 
+/*Tag a, to media*/
+
+a.linkmedia {
+    text-decoration: none;
+}
+
 nav a {
     text-decoration: none;
     color: var(--colour01);
     padding: 10px;
 }
 
+/* hover */
+
 nav a:hover {
     background-color: var(--colour03);
     border-radius: 5px;
     transition: 0.4s;
 }
+
+div.buttons:hover {
+    box-shadow: 7px 7px 14px #00000098;
+    background-color: var(--colour02);
+    color: var(--colour03);
+}
+
+/*----------*/
 
 main {
     background-color: var(--colour01);
@@ -87,6 +103,7 @@ main img {
     width: 100%;
 }
 
+/* Media */
 
 section#angell {
     background-image: url(image/angell-wind10.jpg);
@@ -101,6 +118,10 @@ section#game {
     background-color: #000000;
     color: white;
     height: 600px;
+}
+
+section.media {
+    text-align: center;
 }
 
 section.image {
@@ -119,6 +140,31 @@ section.image > p {
     padding: 200px 20px;
 }
 
+img#about {
+    width: 100%;
+    padding: -20px;
+}
+
+div.video {
+    background-color: var(--colour03);
+    margin: 30px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/*----------*/
+
+/* Box */
+
 div.box {
     background-color: #00000063;
     background-position: center center;
@@ -133,10 +179,6 @@ div.box {
     box-shadow: 5px 5px 7px #0000005b;
 }
 
-div.video {
-    background-color: var(--colour03);
-    text-align: center;
-}
 
 div.scroll {
     display: flex;
@@ -148,6 +190,25 @@ div.scroll {
     box-shadow: inset 1px 1px 7px #00000059;
     overflow-x: auto;
 }
+
+/*----------*/
+
+/* Buttons*/
+
+div.buttons {
+    display: inline-block;
+    font-family: "olga";
+    font-size: 40px;
+    color: var(--colour02);
+    background-color: var(--colour03);
+    border: solid 2px black;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+/*----------*/
 
 /* Softwares */
 
@@ -215,6 +276,8 @@ div#c {
     background-image: url(image/languages/l-c.png);
 }
 
+/*----------*/
+
 /* Science of Deduction */
 
 div#sd01 {
@@ -230,6 +293,8 @@ div#sd02 {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+/*----------*/
 
 p {
     font-size: 20px;
@@ -262,11 +327,6 @@ div.sd {
     color: #ffffff;
     text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
 
-}
-
-img#about {
-    width: 100%;
-    padding: -20px;
 }
 
 footer {
