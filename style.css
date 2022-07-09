@@ -116,6 +116,11 @@ section#angell2 {
     background-position: center bottom;
 }
 
+section#gcm {
+    background-image: url(image/gcm-2.jpg);
+    background-position: center center;
+}
+
 section#game {
     background-color: #000000;
     color: white;
@@ -212,6 +217,7 @@ div.buttons {
     margin: 20px 20px 20px 20px;
     padding: 20px;
     width: 200px;
+    box-shadow: 3px 3px 5px #0000005d;
 }
 
 /*------------------------------------------------*/
@@ -350,10 +356,3 @@ p.content {
 }
 
 /*------------------------------------------------*/
-
-
-div.sd {
-    color: #ffffff;
-    text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
-
-}
