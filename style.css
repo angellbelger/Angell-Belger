@@ -122,7 +122,8 @@ section#gcm {
 }
 
 section#susp {
-    
+    background-image: url(image/u-susp.jpg);
+    background-position: center center;  
 }
 
 section#game {
