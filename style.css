@@ -1,19 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: "old-english";
-    src: url(font/Old\ English\ Five.ttf);
-}
-
-@font-face {
-    font-family: "olga";
-    src: url(font/Olga.ttf);
-}
-
-@font-face {
-    font-family: "tesla";
-    src: url(font/TESLA.ttf);
-}
+/* General */
 
 * {
     
@@ -33,6 +20,29 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*------------------------------------------------*/
+
+/* Fonts */
+
+@font-face {
+    font-family: "old-english";
+    src: url(font/Old\ English\ Five.ttf);
+}
+
+@font-face {
+    font-family: "olga";
+    src: url(font/Olga.ttf);
+}
+
+@font-face {
+    font-family: "tesla";
+    src: url(font/TESLA.ttf);
+}
+
+/*------------------------------------------------*/
+
+/*Basic */
+
 header {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -40,30 +50,29 @@ header {
 
 }
 
-h1#main {
-    font-family: "olga", Arial, Helvetica, sans-serif;
-    font-size: 3.0em;
-    padding: 35px;
-}
-
-h1 {
-    font-family: "tesla", Arial, Helvetica, sans-serif;
-    font-size: 2.0em;
-    padding: 20px;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    padding: 20px;
-}
-
 nav {
     background-color: var(--colour02);
     padding: 10px;
 }
 
-/*Tag a, to media*/
+main {
+    background-color: var(--colour01);
+    min-width: 300px;
+    max-width: 1280px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #00000096;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+/*------------------------------------------------*/
+
+/*Tag a to media*/
 
 a.linkmedia {
     text-decoration: none;
@@ -74,6 +83,8 @@ nav a {
     color: var(--colour01);
     padding: 10px;
 }
+
+/*------------------------------------------------*/
 
 /* hover */
 
@@ -87,21 +98,12 @@ div.buttons:hover {
     box-shadow: 7px 7px 14px #00000098;
     background-color: var(--colour02);
     color: var(--colour03);
+    border: solid 2px var(--colour03);
+    transition: 0.2s;
 }
 
-/*----------*/
+/*------------------------------------------------*/
 
-main {
-    background-color: var(--colour01);
-    min-width: 300px;
-    max-width: 1280px;
-    margin: auto;
-    box-shadow: 3px 3px 10px #00000096;
-}
-
-main img {
-    width: 100%;
-}
 
 /* Media */
 
@@ -112,6 +114,16 @@ section#angell {
 section#angell2 {
     background-image: url(image/angell-oxford.jpg);
     background-position: center bottom;
+}
+
+section#gcm {
+    background-image: url(image/gcm-2.jpg);
+    background-position: center center;
+}
+
+section#susp {
+    background-image: url(image/u-susp.jpg);
+    background-position: center center;  
 }
 
 section#game {
@@ -147,7 +159,7 @@ img#about {
 
 div.video {
     background-color: var(--colour03);
-    margin: 30px -20px 30px -20px;
+    margin: 30px 0px 30px 0px;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
@@ -161,7 +173,11 @@ div.video > iframe {
     height: 90%;
 }
 
-/*----------*/
+main img {
+    width: 100%;
+}
+
+/*------------------------------------------------*/
 
 /* Box */
 
@@ -191,9 +207,9 @@ div.scroll {
     overflow-x: auto;
 }
 
-/*----------*/
+/*------------------------------------------------*/
 
-/* Buttons*/
+/* Buttons */
 
 div.buttons {
     display: inline-block;
@@ -201,14 +217,15 @@ div.buttons {
     font-size: 40px;
     color: var(--colour02);
     background-color: var(--colour03);
-    border: solid 2px black;
+    border: solid 2px var(--colour02);
     border-radius: 20px;
     margin: 20px 20px 20px 20px;
     padding: 20px;
     width: 200px;
+    box-shadow: 3px 3px 5px #0000005d;
 }
 
-/*----------*/
+/*------------------------------------------------*/
 
 /* Softwares */
 
@@ -276,7 +293,7 @@ div#c {
     background-image: url(image/languages/l-c.png);
 }
 
-/*----------*/
+/*------------------------------------------------*/
 
 /* Science of Deduction */
 
@@ -294,7 +311,27 @@ div#sd02 {
     background-repeat: no-repeat;
 }
 
-/*----------*/
+/*------------------------------------------------*/
+
+/* TXT */
+
+h1#main {
+    font-family: "olga", Arial, Helvetica, sans-serif;
+    font-size: 3.0em;
+    padding: 35px;
+}
+
+h1 {
+    font-family: "tesla", Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 20px;
+}
 
 p {
     font-size: 20px;
@@ -323,15 +360,7 @@ p.content {
     text-align: justify;
 }
 
-div.sd {
-    color: #ffffff;
-    text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
-
+strong.attention {
+    color: #8b0f0f;
 }
-
-footer {
-    color: #ffffff;
-    background-color: #000000;
-    text-align: center;
-    padding: 20px;
-}
+/*------------------------------------------------*/
