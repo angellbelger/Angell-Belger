@@ -36,6 +36,11 @@ msgWoman.addEventListener('mouseout', hidden_woman)
 msgWoman.addEventListener('touchstart', show_woman)
 msgWoman.addEventListener('touchmove', show_woman)
 msgWoman.addEventListener('touchend', hidden_woman)
+boxWoman.addEventListener('mouseenter', show_woman)
+boxWoman.addEventListener('mouseout', hidden_woman)
+boxWoman.addEventListener('touchstart', show_woman)
+boxWoman.addEventListener('touchmove', show_woman)
+boxWoman.addEventListener('touchend', hidden_woman)
 
 /* ------------------------------------------------------ */
 
