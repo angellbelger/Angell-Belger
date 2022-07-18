@@ -1,23 +1,33 @@
 
+/*  GLOBAL  */
+
 var msgMind = window.document.querySelector('p#mind')
 var msgDark = window.document.querySelector('p#dark')
 var msgWoman = window.document.querySelector('p#woman')
 
+
+var boxMind = window.document.querySelector('div#sd01')
+var boxDark = window.document.querySelector('div#sd02')
+var boxWoman = window.document.querySelector('div#sd03')
+
+/* ------------------------------------------------------ */
+
+
 /* Event Listener */
 
-msgMind.addEventListener('mouseenter', show_mind)
-msgMind.addEventListener('mouseout', hidden_mind)
-msgMind.addEventListener('touchstart', show_mind)
-msgMind.addEventListener('touchmove', show_mind)
-msgMind.addEventListener('touchend', hidden_mind)
+boxMind.addEventListener('mouseenter', show_mind)
+boxMind.addEventListener('mouseout', hidden_mind)
+boxMind.addEventListener('touchstart', show_mind)
+boxMind.addEventListener('touchmove', show_mind)
+boxMind.addEventListener('touchend', hidden_mind)
 
 
 
-msgDark.addEventListener('mouseenter', show_dark)
-msgDark.addEventListener('mouseout', hidden_dark)
-msgDark.addEventListener('touchstart', show_dark)
-msgDark.addEventListener('touchmove', show_dark)
-msgDark.addEventListener('touchend', hidden_dark)
+boxDark.addEventListener('mouseenter', show_dark)
+boxDark.addEventListener('mouseout', hidden_dark)
+boxDark.addEventListener('touchstart', show_dark)
+boxDark.addEventListener('touchmove', show_dark)
+boxDark.addEventListener('touchend', hidden_dark)
 
 
 
