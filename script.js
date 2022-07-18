@@ -55,7 +55,7 @@ function show_dark(){
 }
 
 function show_woman(){
-    msgWoman.innerHTML = 'Corpo Celeste e a dedução'
+    msgWoman.innerHTML = 'Corpo Celeste'
 }
 
 /* ------------------------------------------------------ */
