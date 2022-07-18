@@ -1,6 +1,7 @@
 
 var msgMind = window.document.querySelector('p#mind')
 var msgDark = window.document.querySelector('p#dark')
+var msgWoman = window.document.querySelector('p#woman')
 
 msgMind.addEventListener('mouseenter', show_mind)
 msgMind.addEventListener('mouseout', hidden_mind)
@@ -18,12 +19,19 @@ msgDark.addEventListener('touchend', hidden_dark)
 
 
 
+msgWoman.addEventListener('mouseenter', show_woman)
+
+
 function show_mind(){
     msgMind.innerHTML = 'Palácio Mental'
 }
 
 function show_dark(){
     msgDark.innerHTML = 'Dia Sombrio'
+}
+
+function show_woman(){
+    msgWoman.innerHTML = 'Corpo Celeste e a dedução'
 }
 
 function hidden_mind(){
