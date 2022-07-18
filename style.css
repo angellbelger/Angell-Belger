@@ -112,17 +112,17 @@ section#angell {
 }
 
 section#angell2 {
-    background-image: url(image/angell-oxford.jpg);
+    background-image: url(image/others/angell-oxford.jpg);
     background-position: center bottom;
 }
 
 section#gcm {
-    background-image: url(image/gcm-2.jpg);
+    background-image: url(image/science-of-deduction/photo/gcm-2.jpg);
     background-position: center center;
 }
 
 section#susp {
-    background-image: url(image/u-susp.jpg);
+    background-image: url(image/science-of-deduction/photo/u-susp.jpg);
     background-position: center center;  
 }
 
@@ -299,21 +299,21 @@ div#c {
 /* Science of Deduction */
 
 div#sd01 {
-    background-image: url(image/science-of-deduction/sd-01.jpg);
+    background-image: url(image/science-of-deduction/thumb/sd-01.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sd02 {
-    background-image: url(image/science-of-deduction/sd-02.jpg);
+    background-image: url(image/science-of-deduction/thumb/sd-02.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sd03 {
-    background-image: url(image/science-of-deduction/sd-03.jpg);
+    background-image: url(image/science-of-deduction/thumb/sd-03.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
