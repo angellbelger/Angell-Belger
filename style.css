@@ -185,6 +185,11 @@ main img {
     width: 100%;
 }
 
+div.print img {
+    width: 100%;
+    margin: 40px 20px 40px 20px;
+}
+
 /*------------------------------------------------*/
 
 /* Box */
@@ -214,6 +219,12 @@ div.scroll {
     padding: 10px;
     box-shadow: inset 1px 1px 7px #00000059;
     overflow-x: auto;
+}
+
+div.print {
+    display: inline-block;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 /*------------------------------------------------*/
