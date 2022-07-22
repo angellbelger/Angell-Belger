@@ -74,7 +74,7 @@ function show_woman(){
 }
 
 function show_lie(){
-    msgLie.innerHTML = 'Não Acredite nas Mentiras Dela'
+    msgLie.innerHTML = 'Não Acredite Nas Mentiras Dela'
 }
 /* ------------------------------------------------------ */
 
