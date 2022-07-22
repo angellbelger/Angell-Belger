@@ -4,11 +4,13 @@
 var msgMind = window.document.querySelector('p#mind')
 var msgDark = window.document.querySelector('p#dark')
 var msgWoman = window.document.querySelector('p#woman')
+var msgLie = window.document.querySelector('p#lie')
 
 
 var boxMind = window.document.querySelector('div#sd01')
 var boxDark = window.document.querySelector('div#sd02')
 var boxWoman = window.document.querySelector('div#sd03')
+var boxLie = window.document.querySelector('div#sd04')
 
 /* ------------------------------------------------------ */
 
@@ -42,6 +44,19 @@ boxWoman.addEventListener('touchstart', show_woman)
 boxWoman.addEventListener('touchmove', show_woman)
 boxWoman.addEventListener('touchend', hidden_woman)
 
+
+
+msgLie.addEventListener('mouseenter', show_lie)
+msgLie.addEventListener('mouseout', hidden_lie)
+msgLie.addEventListener('touchstart', show_lie)
+msgLie.addEventListener('touchmove', show_lie)
+msgLie.addEventListener('touchend', hidden_lie)
+boxLie.addEventListener('mouseenter', show_lie)
+boxLie.addEventListener('mouseout', hidden_lie)
+boxLie.addEventListener('touchstart', show_lie)
+boxLie.addEventListener('touchmove', show_lie)
+boxLie.addEventListener('touchend', hidden_lie)
+
 /* ------------------------------------------------------ */
 
 /* Show MSG */
@@ -58,6 +73,9 @@ function show_woman(){
     msgWoman.innerHTML = 'Corpo Celeste'
 }
 
+function show_lie(){
+    msgLie.innerHTML = 'Não Acredite nas Mentiras Dela'
+}
 /* ------------------------------------------------------ */
 
 /* Hidden MSG */
@@ -72,6 +90,10 @@ function hidden_dark(){
 
 function hidden_woman(){
     msgWoman.innerHTML = '...'
+}
+
+function hidden_lie(){
+    msgLie.innerHTML = '...'
 }
 
 /* ------------------------------------------------------ */

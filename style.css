@@ -141,7 +141,6 @@ section.image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-
 }
 
 section.image > p {
@@ -333,6 +332,13 @@ div#sd02 {
 
 div#sd03 {
     background-image: url(image/science-of-deduction/thumb/sd-03.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sd04 {
+    background-image: url(image/science-of-deduction/thumb/sd-04.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
