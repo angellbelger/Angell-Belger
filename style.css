@@ -222,8 +222,8 @@ div.scroll {
 
 div.print {
     display: inline-block;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 400px;
+    max-height: 400px;
     margin: 0px;
     padding: 0px;
 }
