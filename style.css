@@ -224,6 +224,8 @@ div.print {
     display: inline-block;
     max-width: 350px;
     max-height: 350px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*------------------------------------------------*/
