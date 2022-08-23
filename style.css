@@ -346,6 +346,13 @@ div#sd04 {
     background-repeat: no-repeat;
 }
 
+div#sd05 {
+    background-image: url(image/science-of-deduction/thumb/sd-05.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 /*------------------------------------------------*/
 
 /* TXT */
