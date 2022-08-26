@@ -5,12 +5,15 @@ var msgMind = window.document.querySelector('p#mind')
 var msgDark = window.document.querySelector('p#dark')
 var msgWoman = window.document.querySelector('p#woman')
 var msgLie = window.document.querySelector('p#lie')
+var msgCab = window.document.querySelector('p#cab')
 
 
 var boxMind = window.document.querySelector('div#sd01')
 var boxDark = window.document.querySelector('div#sd02')
 var boxWoman = window.document.querySelector('div#sd03')
 var boxLie = window.document.querySelector('div#sd04')
+var boxCab = window.document.querySelector('div#sd05')
+
 
 /* ------------------------------------------------------ */
 
@@ -57,6 +60,22 @@ boxLie.addEventListener('touchstart', show_lie)
 boxLie.addEventListener('touchmove', show_lie)
 boxLie.addEventListener('touchend', hidden_lie)
 
+
+
+msgCab.addEventListener('mouseenter', show_cab)
+msgCab.addEventListener('mouseout', hidden_cab)
+msgCab.addEventListener('touchstart', show_cab)
+msgCab.addEventListener('touchmove', show_cab)
+msgCab.addEventListener('touchend', hidden_cab)
+boxCab.addEventListener('mouseenter', show_cab)
+boxCab.addEventListener('mouseout', hidden_cab)
+boxCab.addEventListener('touchstart', show_cab)
+boxCab.addEventListener('touchmove', show_cab)
+boxCab.addEventListener('touchend', hidden_cab)
+
+
+
+
 /* ------------------------------------------------------ */
 
 /* Show MSG */
@@ -76,6 +95,10 @@ function show_woman(){
 function show_lie(){
     msgLie.innerHTML = 'Não Acredite Nas Mentiras Dela'
 }
+
+function show_cab(){
+    msgCab.innerHTML = 'Um Estudo Em Preto'
+}
 /* ------------------------------------------------------ */
 
 /* Hidden MSG */
@@ -94,6 +117,10 @@ function hidden_woman(){
 
 function hidden_lie(){
     msgLie.innerHTML = '...'
+}
+
+function hidden_cab(){
+    msgCab.innerHTML = '...'
 }
 
 /* ------------------------------------------------------ */
