@@ -63,6 +63,10 @@ main {
     box-shadow: 3px 3px 10px #00000096;
 }
 
+main.portfolio {
+    max-width: none;
+}
+
 footer {
     color: #ffffff;
     background-color: #000000;
