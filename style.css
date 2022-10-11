@@ -188,6 +188,15 @@ main img {
     width: 100%;
 }
 
+img.bras {
+    display: block;
+    height: 150px;
+    width: 150px;
+    padding: 40px;
+    margin: auto;
+
+}
+
 div.print img {
     width: 100%;
     margin: 0px;
