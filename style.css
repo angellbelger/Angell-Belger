@@ -205,6 +205,12 @@ img.bras {
 
 }
 
+img.so {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
 div.print img {
     width: 100%;
     margin: 0px;
