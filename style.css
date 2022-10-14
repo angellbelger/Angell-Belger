@@ -106,6 +106,14 @@ div.buttons:hover {
     transition: 0.2s;
 }
 
+div.download:hover {
+    box-shadow: 7px 7px 14px #00000098;
+    background-color: var(--colour02);
+    color: #007B08;
+    border: solid 2px #007B08;
+    transition: 0.2s;
+}
+
 /*------------------------------------------------*/
 
 
@@ -255,9 +263,24 @@ div.buttons {
     border-radius: 20px;
     margin: 20px 20px 20px 20px;
     padding: 20px;
-    width: 200px;
+    min-width: 200px;
     box-shadow: 3px 3px 5px #0000005d;
 }
+
+div.download {
+    display: inline-block;
+    font-family: "olga";
+    font-size: 40px;
+    color: var(--colour02);
+    background-color: #007B08;
+    border: solid 2px var(--colour02);
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    min-width: 200px;
+    box-shadow: 3px 3px 5px #0000005d;
+}
+
 
 /*------------------------------------------------*/
 
