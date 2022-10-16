@@ -209,6 +209,7 @@ img.so {
     display: inline-block;
     height: 30px;
     width: 30px;
+    margin: 0px 5px;
 }
 
 div.print img {
