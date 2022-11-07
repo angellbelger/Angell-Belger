@@ -294,7 +294,9 @@ div.download {
 /* Softwares */
 
 div#s01 {
-    background-image: url(image/softwares/site-01.3.jpg);
+    background-image: url(image/softwares/site-01.2.jpg);
+    background-size: cover;
+    background-position: center left;
 }
 
 div#s02 {
