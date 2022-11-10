@@ -256,6 +256,22 @@ div.print {
     padding: 0px;
 }
 
+div.code {
+    background-color: #000000;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    color: rgb(101, 253, 0);
+    text-align: left;
+    max-width: 800px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 400px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    box-shadow: 3px 12px 9px #0000008c;
+
+}
 /*------------------------------------------------*/
 
 /* Buttons */
