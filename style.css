@@ -16,7 +16,7 @@
 }
 
 body, html {
-    background-color: var(--colour02);
+    background-color: var(--colour01);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -43,6 +43,10 @@ body, html {
 
 /*Basic */
 
+body.main {
+    background-color: var(--colour02);
+}
+
 header {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -60,11 +64,15 @@ main {
     min-width: 300px;
     max-width: 1400px;
     margin: auto;
-    box-shadow: 3px 3px 10px #00000096;
 }
 
 main.screenfull {
     max-width: none;
+}
+
+section.main {
+    max-width: 1000px;
+    margin: auto;
 }
 
 footer {
@@ -256,6 +264,22 @@ div.print {
     padding: 0px;
 }
 
+div.code {
+    background-color: #000000;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    color: rgb(101, 253, 0);
+    text-align: left;
+    max-width: 800px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 400px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    box-shadow: 3px 12px 9px #0000008c;
+
+}
 /*------------------------------------------------*/
 
 /* Buttons */
@@ -295,6 +319,8 @@ div.download {
 
 div#s01 {
     background-image: url(image/softwares/site-01.2.jpg);
+    background-size: cover;
+    background-position: center left;
 }
 
 div#s02 {
