@@ -127,9 +127,9 @@ function hidden_cab(){
 
 /* Menu */
 
-let menu = window.document.querySelector('menu#items')
 
 function showMenu(){
+    var menu = window.document.querySelector('menu#items')
     let icon = window.document.querySelector('span#burguer')
     
     if (menu.style.display == 'block'){
@@ -142,6 +142,7 @@ function showMenu(){
 }
 
 function keepMenu(){
+    var menu = window.document.querySelector('menu#items')
     let widthScreen = window.innerWidth
 
     if (widthScreen >= 768){
