@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celestial Body</title>
     <link rel="shortcut icon" href="../ico/logo-angell-4.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width: 992px)">
 </head>
 <body>
     <header>
         <h1 id="main">Angell Belger</h1>
     </header>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../pages/port.html">Portfolio</a>
-        <a href="../pages/gg.html">Great Game</a>
-        <a href="../pages/about.html">About</a>
-    </nav>
+    <span class="material-icons" id="burguer" onclick="showMenu()">menu</span>
+    <menu id="items">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="../pages/port.html"><li>Portfolio</li></a>
+            <a href="../pages/gg.html"><li>Great Game</li></a>
+            <a href="../pages/about.html"><li>About</li></a>
+        </ul>
+    </menu>
     <main>
         <section class="main">
             <h1>Celestial Body</h1>
@@ -46,6 +52,6 @@
     <footer>
         <p><strong>Made in Osternack by Angell Belger</strong></p>
     </footer>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 </html>

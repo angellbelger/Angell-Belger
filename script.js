@@ -124,3 +124,37 @@ function hidden_cab(){
 }
 
 /* ------------------------------------------------------ */
+
+/* Menu */
+
+let menu = window.document.querySelector('menu#items')
+
+function showMenu(){
+    let icon = window.document.querySelector('span#burguer')
+    
+    if (menu.style.display == 'block'){
+        menu.style.display = 'none'
+        icon.innerHTML = 'menu'
+    }else {
+        menu.style.display = 'block'
+        icon.innerHTML = 'menu_open'
+    }
+}
+
+function keepMenu(){
+    let widthScreen = window.innerWidth
+
+    if (widthScreen >= 768){
+        menu.style.display = 'block'
+    }else{
+        menu.style.display = 'none'
+    }
+}
+
+
+
+
+
+/* ------------------------------------------------------ */
+
+

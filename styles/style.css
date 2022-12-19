@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+/*------- Mobile First -------*/
+
+/*
+================ Everyone ================
+======= Typical Device Breakpoints =======
+small screen: max 600px
+cellphone screen: min 600px max 768px
+tablet screen: min 768px max 992px
+desktop screen: min 992px max 1200px
+tv screen: min 1200px
+*/
+
 /* General */
 
 * {
@@ -84,16 +96,46 @@ footer {
 
 /*------------------------------------------------*/
 
+/* Menu*/
+
+span#burguer {
+    text-align: center;
+    background-image: radial-gradient(var(--colour03), var(--colour02));
+    color: var(--colour01);
+    cursor: pointer;
+    display: block;
+    padding: 7px;
+}
+
+menu#items {
+    display: none;
+    text-align: center;
+}
+
+menu#items li {
+    background-color: var(--colour01);
+    border: 1px solid var(--colour03);
+    border-radius: 7px;
+    padding: 7px;
+}
+
+menu#items a {
+    color: var(--colour02);
+    text-decoration: none;
+}
+
+menu#items li:hover {
+    color: var(--colour01);
+    background-color: var(--colour03);
+    transition: 0.3s;
+}
+
+/*------------------------------------------------*/
+
 /*Tag a to media*/
 
 a.linkmedia {
     text-decoration: none;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--colour01);
-    padding: 10px;
 }
 
 /*------------------------------------------------*/
