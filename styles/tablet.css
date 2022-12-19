@@ -2,10 +2,11 @@
 
 
 section#angell {
-    background-image: url(../image/others/angell-wind11.jpg);
+    background-image: url(../image/others/angell-wind9.jpg);
 }
 
 h1#main {
+    text-align: left;
     font-family: "olga", Arial, Helvetica, sans-serif;
     font-size: 3.0em;
     padding: 35px;
