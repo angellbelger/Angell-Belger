@@ -143,12 +143,15 @@ function showMenu(){
 
 function keepMenu(){
     var menu = window.document.querySelector('menu#items')
+    let icon = window.document.querySelector('span#burguer')
     let widthScreen = window.innerWidth
 
     if (widthScreen >= 768){
         menu.style.display = 'block'
+        icon.innerHTML = 'menu_open'
     }else{
         menu.style.display = 'none'
+        icon.innerHTML = 'menu'
     }
 }
 
