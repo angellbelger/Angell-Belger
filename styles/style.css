@@ -170,7 +170,7 @@ div.download:hover {
 /* Media */
 
 section#angell {
-    background-image: url(../image/others/angell-wind10.jpg);
+    background-image: url(../image/others/angell-wind12.jpg);
 }
 
 section#angell2 {
@@ -521,9 +521,9 @@ p.citation {
 
 p.content {
     color: var(--colour02);
-    font-size: 20px;
+    font-size: 1.2em;
     text-indent: 30px;
-    line-height: 40px;
+    line-height: 30px;
     text-align: justify;
 }
 
