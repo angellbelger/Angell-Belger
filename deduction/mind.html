@@ -6,22 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mind Palace</title>
     <link rel="shortcut icon" href="../ico/logo-angell-4.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width: 992px)">
 </head>
 <body>
     <header>
         <h1 id="main">Angell Belger</h1>
     </header>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../pages/port.html">Portfolio</a>
-        <a href="../pages/gg.html">Great Game</a>
-        <a href="../pages/about.html">About</a>
-    </nav>
+    <span class="material-icons" id="burguer" onclick="showMenu()">menu</span>
+    <menu id="items">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="../pages/port.html"><li>Portfolio</li></a>
+            <a href="../pages/gg.html"><li>Great Game</li></a>
+            <a href="../pages/about.html"><li>About</li></a>
+        </ul>
+    </menu>
     <main>
         <section class="main">
             <h1>Mind Palace</h1>
-            <h2>Não havia outros sobreviventes (Século V a.C.).</h2>
+            <h2>Não Havia Outros Sobreviventes (Século V a.C.).</h2>
             <p class="content">
                 Familiares chegando ao local da catástrofe do salão de banquetes,  vasculharam os escombros em busca de sinais de seus entes queridos, anéis, sandálias, qualquer coisa que lhes permitisse identificar seus parentes para um enterro adequado.</p>
             <img src="../image/science-of-deduction/photo/greek.jpg" alt="">
@@ -46,6 +52,6 @@
     <footer>
         <p><strong>Made in Osternack by Angell Belger</strong></p>
     </footer>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 </html>

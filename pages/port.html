@@ -6,23 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="shortcut icon" href="../ico/logo-angell-4.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width: 992px)">
 </head>
 <body>
     <header>
         <h1 id="main">Angell Belger</h1>
     </header>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="#">Portfolio</a>
-        <a href="gg.html">Great Game</a>
-        <a href="about.html">About</a>
-    </nav>
+    <span class="material-icons" id="burguer" onclick="showMenu()">menu</span>
+    <menu id="items">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="#"><li>Portfolio</li></a>
+            <a href="../pages/gg.html"><li>Great Game</li></a>
+            <a href="../pages/about.html"><li>About</li></a>
+        </ul>
+    </menu>
     <main class="screenfull">
         <section>
             <h1>Software Engineering</h1>
             <h2>Websites</h2>
             <div class="scroll">
+
+                <a href="">
+                    <div class="box" id="s07"></div>
+                </a>
                 
                 <a href="https://angellbelger.github.io/Federal-Police-WWW/index.html" rel="external" target="_blank">
                     <div class="box" id="s04"></div>
@@ -81,6 +91,12 @@
 
             <div class="scroll">
 
+                <a href="../deduction/cab.html" class="linkmedia">
+                    <div class="box" id="sd05">
+                        <p class="citation" id="cab">...</p>
+                    </div>
+                </a>
+
                 <a href="../deduction/lies.html" class="linkmedia">
                     <div class="box" id="sd04">
                         <p class="citation" id="lie">...</p>
@@ -104,6 +120,7 @@
                         <p class="citation" id="mind">...</p>
                     </div>
                 </a>
+
             </div>
 
         </section>

@@ -1,0 +1,533 @@
+@charset "UTF-8";
+
+/*------- Mobile First -------*/
+
+/*
+================ Everyone ================
+======= Typical Device Breakpoints =======
+small screen: max 600px
+cellphone screen: min 600px max 768px
+tablet screen: min 768px max 992px
+desktop screen: min 992px max 1200px
+tv screen: min 1200px
+*/
+
+/* General */
+
+* {
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root {
+    --colour01: #ffffff;
+    --colour02: #000000;
+    --colour03: #8726a5;
+}
+
+body, html {
+    background-color: var(--colour01);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------------------------*/
+
+/* Fonts */
+
+@font-face {
+    font-family: "old-english";
+    src: url(../font/Old\ English\ Five.ttf);
+}
+
+@font-face {
+    font-family: "olga";
+    src: url(../font/Olga.ttf);
+}
+
+@font-face {
+    font-family: "tesla";
+    src: url(../font/TESLA.ttf);
+}
+
+/*------------------------------------------------*/
+
+/*Basic */
+
+body.main {
+    background-color: var(--colour02);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: var(--colour02);
+
+}
+
+nav {
+    background-color: var(--colour02);
+    padding: 10px;
+}
+
+main {
+    background-color: var(--colour01);
+    min-width: 300px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+main.screenfull {
+    max-width: none;
+}
+
+section.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+/*------------------------------------------------*/
+
+/* Menu*/
+
+span#burguer {
+    text-align: center;
+    background-image: radial-gradient(var(--colour03), var(--colour02));
+    color: var(--colour01);
+    cursor: pointer;
+    display: block;
+    padding: 7px;
+}
+
+menu#items {
+    display: none;
+    text-align: center;
+}
+
+menu#items li {
+    background-color: var(--colour01);
+    border: 1px solid var(--colour03);
+    border-radius: 7px;
+    padding: 7px;
+}
+
+menu#items a {
+    color: var(--colour02);
+    text-decoration: none;
+}
+
+menu#items li:hover {
+    color: var(--colour01);
+    background-color: var(--colour03);
+    transition: 0.3s;
+}
+
+/*------------------------------------------------*/
+
+/*Tag a to media*/
+
+a.linkmedia {
+    text-decoration: none;
+}
+
+/*------------------------------------------------*/
+
+/* hover */
+
+nav a:hover {
+    background-color: var(--colour03);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+div.buttons:hover {
+    box-shadow: 7px 7px 14px #00000098;
+    background-color: var(--colour02);
+    color: var(--colour03);
+    border: solid 2px var(--colour03);
+    transition: 0.2s;
+}
+
+div.download:hover {
+    box-shadow: 7px 7px 14px #00000098;
+    background-color: var(--colour02);
+    color: #007B08;
+    border: solid 2px #007B08;
+    transition: 0.2s;
+}
+
+/*------------------------------------------------*/
+
+
+/* Media */
+
+section#angell {
+    background-image: url(../image/others/angell-wind10.jpg);
+}
+
+section#angell2 {
+    background-image: url(../image/others/angell-wind11.jpg);
+    background-position: center center;
+}
+
+section#gcm {
+    background-image: url(../image/science-of-deduction/photo/gcm-2.jpg);
+    background-position: center center;
+}
+
+section#susp {
+    background-image: url(../image/science-of-deduction/photo/u-susp.jpg);
+    background-position: center center;  
+}
+
+section#game {
+    background-color: #000000;
+    color: white;
+    height: 600px;
+}
+
+section.media {
+    text-align: center;
+}
+
+section.image {
+    min-height: 597px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section.image > p {
+    color: var(--colour01);
+    text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
+    text-align: center;
+    font-size: 3.0em;
+    padding: 200px 20px;
+}
+
+section.hiato {
+    background-color: var(--colour02);
+    color: var(--colour01);
+    font-size: 3em;
+    text-align: center;
+    padding: 200px 20px 200px 20px;
+}
+
+img#about {
+    width: 100%;
+    padding: -20px;
+}
+
+div.video {
+    background-color: var(--colour03);
+    margin: 30px 0px 30px 0px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main img {
+    width: 100%;
+}
+
+img.bras {
+    display: block;
+    height: 150px;
+    width: 150px;
+    padding: 40px;
+    margin: auto;
+
+}
+
+img.so {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px;
+}
+
+div.print img {
+    width: 100%;
+    margin: 0px;
+}
+
+/*------------------------------------------------*/
+
+/* Box */
+
+div.box {
+    background-color: #00000063;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 320px;
+    max-width: 320px;
+    height: 200px;
+    line-height: 150px;
+    border: solid 2px black;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px #0000005b;
+}
+
+
+div.scroll {
+    display: flex;
+    background-position: center center;
+    background-size: cover;
+    background-color: var(--colour03);
+    max-height: 220px;
+    padding: 10px;
+    box-shadow: inset 1px 1px 7px #00000059;
+    overflow-x: auto;
+}
+
+div.print {
+    display: inline-block;
+    max-width: 380px;
+    max-height: 400px;
+    margin: 10px;
+    padding: 0px;
+}
+
+div.code {
+    background-color: #000000;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    color: rgb(101, 253, 0);
+    text-align: left;
+    max-width: 800px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 400px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    box-shadow: 3px 12px 9px #0000008c;
+
+}
+/*------------------------------------------------*/
+
+/* Buttons */
+
+div.buttons {
+    display: inline-block;
+    font-family: "olga";
+    font-size: 40px;
+    color: var(--colour02);
+    background-color: var(--colour03);
+    border: solid 2px var(--colour02);
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    min-width: 200px;
+    box-shadow: 3px 3px 5px #0000005d;
+}
+
+div.download {
+    display: inline-block;
+    font-family: "olga";
+    font-size: 40px;
+    color: var(--colour02);
+    background-color: #007B08;
+    border: solid 2px var(--colour02);
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    min-width: 200px;
+    box-shadow: 3px 3px 5px #0000005d;
+}
+
+
+/*------------------------------------------------*/
+
+/* Softwares */
+
+div#s01 {
+    background-image: url(../image/softwares/site-01.2.jpg);
+    background-size: cover;
+    background-position: center left;
+}
+
+div#s02 {
+    background-image: url(../image/softwares/site-02.jpg);
+}
+
+div#s03 {
+    background-image: url(../image/softwares/site-03.jpg);
+}
+
+div#s04 {
+    background-image: url(../image/softwares/site-04.3.jpg);
+}
+
+div#s05 {
+    background-image: url(../image/softwares/site-05.3.jpg);
+}
+
+div#s06 {
+    background-image: url(../image/softwares/site-06.2.jpg);
+}
+
+div#s07 {
+    background-image: url(../image/softwares/site-07.1.jpg);
+}
+
+div#sft-01 {
+    background-image: url(../image/softwares/sft-01.2.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sft-02 {
+    background-image: url(../image/softwares/sft-02.4.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sft-03 {
+    background-image: url(../image/softwares/sft-03.3.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sft-04 {
+    background-image: url(../image/softwares/sft-04.3.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.lang {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 320px;
+    margin: 0px;
+}
+
+div#python {
+    background-image: url(../image/languages/l-python.png);
+}
+
+div#c {
+    background-image: url(../image/languages/l-c.png);
+}
+
+/*------------------------------------------------*/
+
+/* Science of Deduction */
+
+div#sd01 {
+    background-image: url(../image/science-of-deduction/thumb/sd-01.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sd02 {
+    background-image: url(../image/science-of-deduction/thumb/sd-02.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sd03 {
+    background-image: url(../image/science-of-deduction/thumb/sd-03.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sd04 {
+    background-image: url(../image/science-of-deduction/thumb/sd-04.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div#sd05 {
+    background-image: url(../image/science-of-deduction/thumb/sd-05.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------------*/
+
+/* TXT */
+
+h1#main {
+    font-family: "olga", Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    padding: 35px;
+}
+
+h1 {
+    font-family: "tesla", Arial, Helvetica, sans-serif;
+    font-size: 2.0em;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.0em;
+    padding: 20px;
+}
+
+p#game {
+    text-align: center;
+    line-height: 600px;
+}
+
+p.citation {
+    color: #ffffff;
+    text-shadow: 3px 0px 7px #000000, -3px 0px 7px #000000, 0px 3px 7px #000000, 0px -3px 7px #000000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2.0em;
+    padding: 0px 20px;
+}
+
+p.content {
+    color: var(--colour02);
+    font-size: 20px;
+    text-indent: 30px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+strong.attention {
+    color: #8b0f0f;
+}
+/*------------------------------------------------*/
