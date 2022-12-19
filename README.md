@@ -4,7 +4,7 @@
 ## Steps
 - [x] HTML
 - [x] CSS
-- [ ] Javascrip
+- [X] Javascrip
 
 Visite o Site, <a href="https://angellbelger.github.io/Angell-Belger-WWW/" target="_blank" rel="external">Click aqui.</a>
 ***
