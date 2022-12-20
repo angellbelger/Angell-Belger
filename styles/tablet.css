@@ -48,7 +48,8 @@ menu#items a {
 
 menu#items li:hover {
     color: var(--colour01);
-    background-color: var(--colour03);
+    background-color: var(--colour02);
+    border: 0px;
     transition: 0.3s;
 }
 
