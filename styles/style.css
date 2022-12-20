@@ -259,8 +259,10 @@ img.so {
 }
 
 div.print img {
+    background-color: var(--colour02);
     width: 100%;
     margin: 0px;
+    border: 1px solid;
 }
 
 /*------------------------------------------------*/
