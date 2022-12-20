@@ -166,21 +166,21 @@ div.download:hover {
 /* Media */
 
 section#angell {
-    background-image: url(../image/others/angell-wind9.jpg);
+    background-image: url(../images/others/angell-wind9.jpg);
 }
 
 section#angell2 {
-    background-image: url(../image/others/angell-wind11.jpg);
+    background-image: url(../images/others/angell-wind11.jpg);
     background-position: center center;
 }
 
 section#gcm {
-    background-image: url(../image/science-of-deduction/photo/gcm-2.jpg);
+    background-image: url(../images/science-of-deduction/photo/gcm-2.jpg);
     background-position: center center;
 }
 
 section#susp {
-    background-image: url(../image/science-of-deduction/photo/u-susp.jpg);
+    background-image: url(../images/science-of-deduction/photo/u-susp.jpg);
     background-position: center center;  
 }
 
@@ -356,58 +356,58 @@ div.download {
 /* Softwares */
 
 div#s01 {
-    background-image: url(../image/softwares/site-01.2.jpg);
+    background-image: url(../images/softwares/site-01.2.jpg);
     background-size: cover;
     background-position: center left;
 }
 
 div#s02 {
-    background-image: url(../image/softwares/site-02.jpg);
+    background-image: url(../images/softwares/site-02.jpg);
 }
 
 div#s03 {
-    background-image: url(../image/softwares/site-03.jpg);
+    background-image: url(../images/softwares/site-03.jpg);
 }
 
 div#s04 {
-    background-image: url(../image/softwares/site-04.3.jpg);
+    background-image: url(../images/softwares/site-04.3.jpg);
 }
 
 div#s05 {
-    background-image: url(../image/softwares/site-05.3.jpg);
+    background-image: url(../images/softwares/site-05.3.jpg);
 }
 
 div#s06 {
-    background-image: url(../image/softwares/site-06.2.jpg);
+    background-image: url(../images/softwares/site-06.2.jpg);
 }
 
 div#s07 {
-    background-image: url(../image/softwares/site-07.1.jpg);
+    background-image: url(../images/softwares/site-07.1.jpg);
 }
 
 div#sft-01 {
-    background-image: url(../image/softwares/sft-01.2.png);
+    background-image: url(../images/softwares/sft-01.2.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sft-02 {
-    background-image: url(../image/softwares/sft-02.4.png);
+    background-image: url(../images/softwares/sft-02.4.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sft-03 {
-    background-image: url(../image/softwares/sft-03.3.png);
+    background-image: url(../images/softwares/sft-03.3.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sft-04 {
-    background-image: url(../image/softwares/sft-04.3.png);
+    background-image: url(../images/softwares/sft-04.3.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -422,11 +422,11 @@ div.lang {
 }
 
 div#python {
-    background-image: url(../image/languages/l-python.png);
+    background-image: url(../images/languages/l-python.png);
 }
 
 div#c {
-    background-image: url(../image/languages/l-c.png);
+    background-image: url(../images/languages/l-c.png);
 }
 
 /*------------------------------------------------*/
@@ -434,35 +434,35 @@ div#c {
 /* Science of Deduction */
 
 div#sd01 {
-    background-image: url(../image/science-of-deduction/thumb/sd-01.jpg);
+    background-image: url(../images/science-of-deduction/thumb/sd-01.jpg);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sd02 {
-    background-image: url(../image/science-of-deduction/thumb/sd-02.jpg);
+    background-image: url(../images/science-of-deduction/thumb/sd-02.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sd03 {
-    background-image: url(../image/science-of-deduction/thumb/sd-03.jpg);
+    background-image: url(../images/science-of-deduction/thumb/sd-03.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sd04 {
-    background-image: url(../image/science-of-deduction/thumb/sd-04.jpg);
+    background-image: url(../images/science-of-deduction/thumb/sd-04.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div#sd05 {
-    background-image: url(../image/science-of-deduction/thumb/sd-05.jpg);
+    background-image: url(../images/science-of-deduction/thumb/sd-05.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
