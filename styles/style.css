@@ -245,7 +245,8 @@ div.video > iframe {
 }
 
 main img {
-    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 img.bras {
