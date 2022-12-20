@@ -127,7 +127,8 @@ menu#items a {
 
 menu#items li:hover {
     color: var(--colour01);
-    background-color: var(--colour03);
+    background-image: radial-gradient(var(--colour03), var(--colour02));
+    border: 1px solid var(--colour02);
     transition: 0.3s;
 }
 
@@ -142,12 +143,6 @@ a.linkmedia {
 /*------------------------------------------------*/
 
 /* hover */
-
-nav a:hover {
-    background-color: var(--colour03);
-    border-radius: 5px;
-    transition: 0.4s;
-}
 
 div.buttons:hover {
     box-shadow: 7px 7px 14px #00000098;
