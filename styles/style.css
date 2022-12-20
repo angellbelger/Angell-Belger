@@ -169,11 +169,6 @@ section#angell {
     background-image: url(../images/others/angell-wind9.jpg);
 }
 
-section#angell2 {
-    background-image: url(../images/others/angell-wind11.jpg);
-    background-position: center center;
-}
-
 section#gcm {
     background-image: url(../images/science-of-deduction/photo/gcm-2.jpg);
     background-position: center center;
@@ -221,6 +216,16 @@ section.hiato {
 img#about {
     width: 100%;
     padding: -20px;
+}
+
+img#angell {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div.video {
