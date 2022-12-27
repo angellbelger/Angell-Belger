@@ -450,12 +450,39 @@ div#c {
 
 /* The Great Game */
 
+body#game {
+    background-color: var(--colour02);
+}
+
 main.game {
-    background-color: #007B08;
+    background-color: var(--colour02);
+    color: var(--colour01);
     height: 100vh;
-    width: 100vw;
-    margin: 0px;
+    width: 100%;
+    margin: auto;
     position: relative;
+}
+
+section#prompt {
+    background-color: #000000;
+    color: var(--colour01);
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    border: 1px solid var(--colour01);
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button#gg {
+    margin: 10px;
+    padding: 2px;
+}
+
+input#iPass {
+    text-align: center;
 }
 
 
