@@ -272,6 +272,14 @@ div.print img {
     border: 1px solid;
 }
 
+div.photo img {
+    width: 100%;
+}
+
+div#photo02 {
+    width: 100%;
+}
+
 /*------------------------------------------------*/
 
 /* Box */
@@ -437,6 +445,19 @@ div#python {
 div#c {
     background-image: url(../images/languages/l-c.png);
 }
+
+/*------------------------------------------------*/
+
+/* The Great Game */
+
+main.game {
+    background-color: #007B08;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    position: relative;
+}
+
 
 /*------------------------------------------------*/
 
