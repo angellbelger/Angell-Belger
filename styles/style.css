@@ -272,6 +272,14 @@ div.print img {
     border: 1px solid;
 }
 
+div.photo img {
+    width: 100%;
+}
+
+div#photo02 {
+    width: 100%;
+}
+
 /*------------------------------------------------*/
 
 /* Box */
