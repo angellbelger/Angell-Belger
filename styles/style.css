@@ -127,7 +127,7 @@ menu#items a {
 
 menu#items li:hover {
     color: var(--colour01);
-    background-image: radial-gradient(var(--colour03), var(--colour02));
+    background: var(--colour03);
     border: 1px solid var(--colour02);
     transition: 0.3s;
 }
@@ -278,6 +278,17 @@ div.photo img {
 
 div#photo02 {
     width: 100%;
+}
+
+div.img {
+    float: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+div.msg {
+    float: left;
+
 }
 
 img.photo {
