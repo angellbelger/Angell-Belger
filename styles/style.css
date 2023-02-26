@@ -56,7 +56,7 @@ body, html {
 /*Basic */
 
 body.main {
-    background-color: var(--colour02);
+    background-color: var(--colour01);
 }
 
 header {
