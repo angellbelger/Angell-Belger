@@ -53,4 +53,19 @@ menu#items li:hover {
     transition: 0.3s;
 }
 
+div.msg {
+    font-size: 1.7em;
+    float: left;
+    height: auto;
+    width: 40vw;
+
+}
+
+div.img {
+    float: right;
+    margin: 0px;
+    padding: 20px;
+    width: 50vw;
+}
+
 /*------------------------------------------------*/
