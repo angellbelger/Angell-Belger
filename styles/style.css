@@ -281,18 +281,31 @@ div#photo02 {
 }
 
 div.img {
+    background-color: #8b0f0f46;
     float: center;
+    height: 350px;
     margin: 0px;
     padding: 20px;
 }
 
+section.swat{
+    height: 390px;
+    background-color: rgba(0, 255, 255, 0.479);
+    width: 100vw;
+}
+
 div.msg {
+    background-color: #26a5a544;
+    display: block;
     float: left;
+    width: 100vw;
 
 }
 
 img.photo {
+    display: block;
     width: 100%;
+    
 }
 
 /*------------------------------------------------*/

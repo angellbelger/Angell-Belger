@@ -53,18 +53,29 @@ menu#items li:hover {
     transition: 0.3s;
 }
 
+section.swat{
+    height: 390px;
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0.479);
+    width: 97vw;
+}
+
 div.msg {
+    display: block;
     font-size: 1.7em;
     float: left;
     height: auto;
-    width: 40vw;
+    height: 350px;
+    width: 44vw;
+    padding: 0px;
 
 }
 
 div.img {
+    display: block;
     float: right;
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
     width: 50vw;
 }
 
