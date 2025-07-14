@@ -6,7 +6,7 @@
 - [x] CSS
 - [X] Javascrip
 
-Visite o Site, <a href="https://angellbelger.github.io/Angell-Belger-WWW/" target="_blank" rel="external">Click aqui.</a>
+Visit theWebsite, <a href="https://angellbelger.github.io/Angell-Belger-WWW/" target="_blank" rel="external">Click aqui.</a>
 ***
 ### License Copyright (c) 2021 Angell Belger
  
