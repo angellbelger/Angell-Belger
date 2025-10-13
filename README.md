@@ -4,9 +4,9 @@
 ## Steps
 - [x] HTML
 - [x] CSS
-- [X] Javascrip
+- [X] Javascript
 
-Visit theWebsite, <a href="https://angellbelger.github.io/Angell-Belger-WWW/" target="_blank" rel="external">Click aqui.</a>
+Visit theWebsite, <a href="https://angellbelger.github.io/Angell-Belger/" target="_blank" rel="external">Click aqui.</a>
 ***
 ### License Copyright (c) 2021 Angell Belger
  
